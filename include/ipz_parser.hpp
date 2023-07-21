@@ -64,7 +64,7 @@ class IpzVpdParser : public ParserInterface
      *
      * @return parsed VPD data.
      */
-    std::variant<types::ParsedVPD, types::KeywordVpdMap> parse();
+    types::VPDMapVariant parse();
 
     /**
      * @brief API to check validity of VPD header.
