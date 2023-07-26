@@ -38,6 +38,5 @@ static constexpr auto UUID_TIME_MID_END = 13;
 static constexpr auto UUID_TIME_HIGH_END = 18;
 static constexpr auto UUID_CLK_SEQ_END = 23;
 static constexpr auto MAC_ADDRESS_LEN_BYTES = 6;
-
 } // namespace constants
 } // namespace vpd
